@@ -157,7 +157,7 @@ router.delete('/robot/:id', async (req, res, next) => {
   }
 });
 
-/* Tell me rule number one */
+/* Tell me rule number one. Feed this array of robot ids */
 router.post('/robot/fightclub', async (req, res, next) => {
   /* variables */
   const client = await pool.connect();
